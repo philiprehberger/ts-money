@@ -33,11 +33,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/philiprehberger/ts-money-ts.git"
+    "url": "git+https://github.com/philiprehberger/ts-money.git"
   },
-  "homepage": "https://github.com/philiprehberger/ts-money-ts#readme",
+  "homepage": "https://github.com/philiprehberger/ts-money#readme",
   "bugs": {
-    "url": "https://github.com/philiprehberger/ts-money-ts/issues"
+    "url": "https://github.com/philiprehberger/ts-money/issues"
   },
   "author": "Philip Rehberger",
   "engines": {
