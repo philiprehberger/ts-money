@@ -1,6 +1,6 @@
 # @philiprehberger/ts-money
 
-[![CI](https://github.com/philiprehberger/ts-money/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-money/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/ts-money/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/ts-money/actions/workflows/publish.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/ts-money.svg)](https://www.npmjs.com/package/@philiprehberger/ts-money)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-money)](LICENSE)
 
@@ -47,6 +47,15 @@ price.toCents(); // 1099
 | `.format(locale?)` | Intl.NumberFormat currency string |
 | `.toDecimal()` / `.toCents()` | Conversion |
 | `.equals()` / `.greaterThan()` / `.lessThan()` | Comparison |
+
+
+## Development
+
+```bash
+npm install
+npm run build
+npm test
+```
 
 ## License
 
