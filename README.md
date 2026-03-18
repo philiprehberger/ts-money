@@ -1,21 +1,21 @@
-# @philiprehberger/ts-money
+# @philiprehberger/money-ts
 
 [![CI](https://github.com/philiprehberger/ts-money/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/ts-money/actions/workflows/publish.yml)
-[![npm version](https://img.shields.io/npm/v/@philiprehberger/ts-money.svg)](https://www.npmjs.com/package/@philiprehberger/ts-money)
+[![npm version](https://img.shields.io/npm/v/@philiprehberger/money-ts.svg)](https://www.npmjs.com/package/@philiprehberger/money-ts)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-money)](LICENSE)
 
-Precise money and currency arithmetic.
+Precise money and currency arithmetic
 
 ## Installation
 
 ```bash
-npm install @philiprehberger/ts-money
+npm install @philiprehberger/money-ts
 ```
 
 ## Usage
 
 ```ts
-import { money } from '@philiprehberger/ts-money';
+import { money } from '@philiprehberger/money-ts';
 
 const price = money(1099, 'USD');
 const tax = price.percentage(8.5);
@@ -29,7 +29,7 @@ const [a, b] = total.allocate([60, 40]); // handles remainders
 ### From Decimal
 
 ```ts
-import { money } from '@philiprehberger/ts-money';
+import { money } from '@philiprehberger/money-ts';
 
 const price = money.fromDecimal(10.99, 'USD');
 price.toCents(); // 1099
