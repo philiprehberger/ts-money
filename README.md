@@ -1,6 +1,6 @@
 # @philiprehberger/money-ts
 
-[![CI](https://github.com/philiprehberger/ts-money/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/ts-money/actions/workflows/publish.yml)
+[![CI](https://github.com/philiprehberger/ts-money/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-money/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/money-ts.svg)](https://www.npmjs.com/package/@philiprehberger/money-ts)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-money)](LICENSE)
 
